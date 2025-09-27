@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#39;25 Posts on assouline.sh</title>
+    <link>https://assouline.sh/blog/25-posts/</link>
+    <description>Recent content in &#39;25 Posts on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/25-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEFCON</title>
+      <link>https://assouline.sh/blog/25-posts/defcon/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/25-posts/defcon/</guid>
+      <description>DEFCON !!!! AH !!!!!!
+I&amp;rsquo;ve been wanting to go for years, and this year my linux malware professor chose a handful of his students to take this year! It was such an amazing experience, but definitely largely thanks to my professor who showed us the ropes and introduced us to a lot of cool people. I spent most of the time wandering the different villages, but did go to a couple talks about reverse engineering, car hacking, and IoT hacking.</description>
+    </item>
+    <item>
+      <title>College Graduation</title>
+      <link>https://assouline.sh/blog/25-posts/graduation/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/25-posts/graduation/</guid>
+      <description>The day is finally here. I know this is what I&amp;rsquo;ve been working towards for four years, or more realistically, since like middle school, but it still doesn&amp;rsquo;t feel real. College graduations seemed to be this thing that happened to those older than me, and it didn&amp;rsquo;t really register that one year it would be my turn.
+Since freshman year spring I&amp;rsquo;ve been making small blog posts here, and it&amp;rsquo;s insane to look back at where I started.</description>
+    </item>
+    <item>
+      <title>Linux Malware</title>
+      <link>https://assouline.sh/blog/25-posts/malware/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/25-posts/malware/</guid>
+      <description>My last semester, I wanted to take advantage of one of the last opportunities I may have to take a truly challenging class. We learned the basics of reverse engineering, and for the final project my group and I wrote our own malware- including the client and C2 server as well as the implant- to target an ARM-based Linux raspberry pi.
+Our malware worked as follows:
+Once our implant is successfully loaded onto our target, it calls out to our C2 over TLS to register itself and obtain an ID for future communications.</description>
+    </item>
+    <item>
+      <title>CTF Club: BIG CTF</title>
+      <link>https://assouline.sh/blog/25-posts/bigctf/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/25-posts/bigctf/</guid>
+      <description>I can&amp;rsquo;t believe the time is here. My last CTF Club event :(. We grew from an idea into a pillar of the cybersecurity and computer science community at Northeastern. We are one of our school&amp;rsquo;s biggest clubs. I&amp;rsquo;ve had so much fun organizing and hosting all of our events, workshops, and competitions, and have made soooo many CTF challenges along the way. Over the years, we&amp;rsquo;ve truly built a community.</description>
+    </item>
+  </channel>
+</rss>

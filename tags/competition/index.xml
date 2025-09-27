@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>competition on assouline.sh</title>
+    <link>https://assouline.sh/blog/tags/competition/</link>
+    <description>Recent content in competition on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/tags/competition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collegiate Pentesting Competition</title>
+      <link>https://assouline.sh/blog/24-posts/cptc24/</link>
+      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/cptc24/</guid>
+      <description>Another year, another competition. Like last year (see previous post), I spent a significant time preparing since I haven&amp;rsquo;t messed with offsec tools in a while. I also thoroughly investigated past reports to try and find patterns in what vulnerabilities were present every year. Highly recommend this strat. CPTC
+This year, we were penetration testing consultants for OuiCroissant, the owners of a mock social media company Flakebook. We were tasked with testing both their internal networks and the web app for 8 hours, then had 7 hours afterwards to write a formal report of our findings.</description>
+    </item>
+    <item>
+      <title>Captain for eCitadel Competition</title>
+      <link>https://assouline.sh/blog/24-posts/ecitadel/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/ecitadel/</guid>
+      <description>Quick four hour competition this past weekend! I was the captain for our team of 4.
+The 2024 eCitadel Open had 4 systems: Windows Server 2016, Windows Server 2022, Linux Mint 21, and Alma Linux OS 9 which I was on. The competition is scored based on web challenges, maintaining critical services, and patching misconfigurations and vulnerabilities.
+Overall, we placed 43rd out of 159 teams. We didn&amp;rsquo;t take it too intensely, just enjoyed practicing security, forensic, configuration, and system administration on vulnerable systems.</description>
+    </item>
+    <item>
+      <title>7th at National CCDC Competition</title>
+      <link>https://assouline.sh/blog/24-posts/ccdc24/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/ccdc24/</guid>
+      <description>WOHOO!! We made it to CCDC nationals again this year! After competing in qualifiers in February and the Northeast regional against 10 other schools in March, we placed first and were able to go to San Antonio, Texas to compete nationally.
+This year, we were an HR company called HR-Hydra who had recently acquired another company, Roxxon. Like last year, we were given a diagram of the network about an hour before the start of competition.</description>
+    </item>
+    <item>
+      <title>Collegiate Pentesting Competition</title>
+      <link>https://assouline.sh/blog/23-posts/cptc/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cptc/</guid>
+      <description>This weekend I competed in the Collegiate Penetration Testing Competition (CPTC) with a team of other Northeastern cybersecurity students. This was my first time engaging in offensive security, and I spent a lot of time preparing. I read both Learn Penetration Testing and Penetration Testing: A Survival Guide, practiced on Hack the Box and VulnHub, and messed around with all the different tools out there.
+This year, we were penetration testing consultants for an airport.</description>
+    </item>
+    <item>
+      <title>10th at Cyberforce Competition</title>
+      <link>https://assouline.sh/blog/23-posts/cyberforce/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cyberforce/</guid>
+      <description>Myself and other CCDC members competed in Cyberforce and ranked 10th out of 100+ teams!
+For the competition, we were the technical team at a distributed energy resource management company, DER8.9. We were responsible for the integration, maintenance, and security for all internal system infrastructure and remote client management software, including a fully integrated ICS.
+Before the official start of the competition, we were given access to the infrastructure we would need to defend.</description>
+    </item>
+    <item>
+      <title>5th at National CCDC Competition</title>
+      <link>https://assouline.sh/blog/23-posts/ccdc23/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/ccdc23/</guid>
+      <description>This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber Defense Competition in Texas. After two days of intense competition, we placed 5th in the nation!
+This was undoubtedly the most stressful and fun cybersecurity experience I&amp;rsquo;ve ever had. We were given the diagram of the network infrastructure only an hour before the start of the competition, and we scrambled to establish a game plan.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>career on assouline.sh</title>
+    <link>https://assouline.sh/blog/tags/career/</link>
+    <description>Recent content in career on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Engineer at Klaviyo</title>
+      <link>https://assouline.sh/blog/24-posts/klaviyo/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/klaviyo/</guid>
+      <description>Over the summer I was at Benchling, and for the fall I joined Klaviyo as a Security Engineer! I&amp;rsquo;m so grateful they could accommodate my later start date, because the team seemed great and I was so happy to gain further exposure to how security engineering is implemented at another company. Especially one that was a fellow startup that recently had an IPO.
+Unfortunately, I&amp;rsquo;m writing this recap almost a year later and my memory of my project details is fading.</description>
+    </item>
+    <item>
+      <title>Security Engineer at Benchling</title>
+      <link>https://assouline.sh/blog/24-posts/benchling/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/benchling/</guid>
+      <description>This past summer, I was a security engineering intern at Benchling, a biotech startup in SF! It was an amazing opportunity, and I feel greatly indebted to every single person I met there for being so kind and welcoming. I learned a lot about the company, how different security teams all work together in an enterprise, and about the beautiful city.
+The recruiter told our 8 person intern class that we were chosen from over 10,000 applicants.</description>
+    </item>
+    <item>
+      <title>Cybersecurity Analyst at Draper</title>
+      <link>https://assouline.sh/blog/23-posts/draper/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/draper/</guid>
+      <description>Just finished my first co-op experience: 7 months at Draper Labs as a Cybersecurity Analyst working in the SOC.
+Draper Labs is a non-profit research and development organization. This was my first time having a real adult job, and I learned a lot about how I want to move forward in the field, and about myself. I triaged daily alerts from Splunk, Carbon Black, and Proofpoint, which improved my skills in threat analysis, vulnerability management, and incident response.</description>
+    </item>
+  </channel>
+</rss>

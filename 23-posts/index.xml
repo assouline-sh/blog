@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#39;23 Posts on assouline.sh</title>
+    <link>https://assouline.sh/blog/23-posts/</link>
+    <description>Recent content in &#39;23 Posts on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/23-posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity Analyst at Draper</title>
+      <link>https://assouline.sh/blog/23-posts/draper/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/draper/</guid>
+      <description>Just finished my first co-op experience: 7 months at Draper Labs as a Cybersecurity Analyst working in the SOC.
+Draper Labs is a non-profit research and development organization. This was my first time having a real adult job, and I learned a lot about how I want to move forward in the field, and about myself. I triaged daily alerts from Splunk, Carbon Black, and Proofpoint, which improved my skills in threat analysis, vulnerability management, and incident response.</description>
+    </item>
+    <item>
+      <title>CompTIA CySA&#43; Certification</title>
+      <link>https://assouline.sh/blog/23-posts/cysa/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cysa/</guid>
+      <description>Passed CySA+! For a few months, I biked to the office an hour early so I could fit in a study session before the start of the workday. Since I&amp;rsquo;ve been on co-op as a Cybersecurity Analyst, I felt that obtaining this certification would be an appropriate reinforcement of the skills and knowledge I&amp;rsquo;m learning. Though there was a lot of content overlap with Security+, it delved deeper into threat detection and analysis, vulnerability management, and incident response.</description>
+    </item>
+    <item>
+      <title>CTF Club: Sub-Z3r0 CTF</title>
+      <link>https://assouline.sh/blog/23-posts/subzero/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/subzero/</guid>
+      <description>Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating with NUSecurity and Northeastern&amp;rsquo;s chapter of Women in Cybersecurity (WiCyS), catering food, handing out fliers, and getting our college to publicize the event to all Khoury students. With over 60+ competitors, it was the largest ever student-led security event at Northeastern.
+The two aforementioned clubs helped with event logistics, while we created the challenges. We included many easy challenges to make the event accessible for complete beginners, and a handful of harder challenges definitely stumped those with more experience.</description>
+    </item>
+    <item>
+      <title>First Keyboard Build</title>
+      <link>https://assouline.sh/blog/23-posts/keyborb/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/keyborb/</guid>
+      <description>I&amp;rsquo;ve been admiring KAM Superuser keycaps for a while, and finally bought them for my first custom build. I splurged on the novelties, but it was entirely worth it. Paired with Epomaker Sea Salt Silent Switches for a soft sound that wouldn&amp;rsquo;t be picked up by a mic on calls, and RK68 65% Wireless Keyboard for something lightweight and portable.
+It turned out perfectly. I have commands like grep, env, whoami, and sudo su on my keycaps!</description>
+    </item>
+    <item>
+      <title>Collegiate Pentesting Competition</title>
+      <link>https://assouline.sh/blog/23-posts/cptc/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cptc/</guid>
+      <description>This weekend I competed in the Collegiate Penetration Testing Competition (CPTC) with a team of other Northeastern cybersecurity students. This was my first time engaging in offensive security, and I spent a lot of time preparing. I read both Learn Penetration Testing and Penetration Testing: A Survival Guide, practiced on Hack the Box and VulnHub, and messed around with all the different tools out there.
+This year, we were penetration testing consultants for an airport.</description>
+    </item>
+    <item>
+      <title>10th at Cyberforce Competition</title>
+      <link>https://assouline.sh/blog/23-posts/cyberforce/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cyberforce/</guid>
+      <description>Myself and other CCDC members competed in Cyberforce and ranked 10th out of 100+ teams!
+For the competition, we were the technical team at a distributed energy resource management company, DER8.9. We were responsible for the integration, maintenance, and security for all internal system infrastructure and remote client management software, including a fully integrated ICS.
+Before the official start of the competition, we were given access to the infrastructure we would need to defend.</description>
+    </item>
+    <item>
+      <title>Starting CTF Club at Northeastern</title>
+      <link>https://assouline.sh/blog/23-posts/ctfclub/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/ctfclub/</guid>
+      <description>This semester, myself and a talented group of fellow cybersecurity students are starting a CTF club at Northeastern. While there is already a cybersecurity club on campus, they largely focus on social and networking events. Myself and others noticed a gap in technical, hands-on cybersecurity events where students could practice and learn new skills.
+As a co-founder and Vice President, I have been crafting CTF challenges for our upcoming competitions and weekly general meetings.</description>
+    </item>
+    <item>
+      <title>5th at National CCDC Competition</title>
+      <link>https://assouline.sh/blog/23-posts/ccdc23/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/ccdc23/</guid>
+      <description>This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber Defense Competition in Texas. After two days of intense competition, we placed 5th in the nation!
+This was undoubtedly the most stressful and fun cybersecurity experience I&amp;rsquo;ve ever had. We were given the diagram of the network infrastructure only an hour before the start of the competition, and we scrambled to establish a game plan.</description>
+    </item>
+    <item>
+      <title>CY3740: System Security</title>
+      <link>https://assouline.sh/blog/23-posts/cy3740/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/cy3740/</guid>
+      <description>System Security (CY3740) was- and I anticipate always will remain- the best course I have taken at Northeastern. I strongly believe that every student in Khoury should take it, as no other class will push and engage you as much as this one. Professor Kaan gives students an extremely thorough, rigorous, and technical experience that ensures you fully understand the depth of the course material. All assignments were conducting real exploits against vulnerable systems, and submitting flags to prove victory.</description>
+    </item>
+    <item>
+      <title>CompTIA Security&#43; Certification</title>
+      <link>https://assouline.sh/blog/23-posts/security/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/security/</guid>
+      <description>Passed Security+! After consistently studying all of Fall semester, I hunkered down during the last week of winter break to cram as many practice tests as possible. It was important to me to set a goal and steadily move towards it to help build the habit of continuous self improvement and learning. The content supplemented my coursework nicely, and often acted as a reinforcement. I enjoyed that the questions pushed me to apply my conceptual knowledge to realistic scenarios.</description>
+    </item>
+  </channel>
+</rss>

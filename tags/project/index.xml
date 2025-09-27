@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on assouline.sh</title>
+    <link>https://assouline.sh/blog/tags/project/</link>
+    <description>Recent content in project on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic MacOS Rice</title>
+      <link>https://assouline.sh/blog/24-posts/rice/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/24-posts/rice/</guid>
+      <description>Recently, I&amp;rsquo;ve been admiring the unqiue, personalized desktop environments showcased on r/unixporn. I love the ability to customize your digital space and how ricing combines both creativity and functionality to empower users. Though I unfortunately don&amp;rsquo;t daily drive Linux (yet), I was inspired to explore what customizations I could do within the bounds of being on MacOS.
+I switched to Alacritty as my terminal emulator for its speed, simplicity, and efficiency.</description>
+    </item>
+    <item>
+      <title>First Keyboard Build</title>
+      <link>https://assouline.sh/blog/23-posts/keyborb/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/23-posts/keyborb/</guid>
+      <description>I&amp;rsquo;ve been admiring KAM Superuser keycaps for a while, and finally bought them for my first custom build. I splurged on the novelties, but it was entirely worth it. Paired with Epomaker Sea Salt Silent Switches for a soft sound that wouldn&amp;rsquo;t be picked up by a mic on calls, and RK68 65% Wireless Keyboard for something lightweight and portable.
+It turned out perfectly. I have commands like grep, env, whoami, and sudo su on my keycaps!</description>
+    </item>
+    <item>
+      <title>Featured on Khoury Website</title>
+      <link>https://assouline.sh/blog/22-posts/feature/</link>
+      <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/22-posts/feature/</guid>
+      <description>I gave a very brief interview about my experiences as a cybersecurity student, which is now featured on Khoury&amp;rsquo;s (Northeastern&amp;rsquo;s College of Computer Science) website for prospective students to gain a glimpse into the experiences of those in our degree program. My answers sound like an exaggerated pre-scripted ad, but I do genuinely enjoy Northeastern and the degree, and hope I can at least slightly sway others to come study cybersecurity here too :).</description>
+    </item>
+  </channel>
+</rss>

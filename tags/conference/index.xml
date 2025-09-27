@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conference on assouline.sh</title>
+    <link>https://assouline.sh/blog/tags/conference/</link>
+    <description>Recent content in conference on assouline.sh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://assouline.sh/blog/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEFCON</title>
+      <link>https://assouline.sh/blog/25-posts/defcon/</link>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/25-posts/defcon/</guid>
+      <description>DEFCON !!!! AH !!!!!!
+I&amp;rsquo;ve been wanting to go for years, and this year my linux malware professor chose a handful of his students to take this year! It was such an amazing experience, but definitely largely thanks to my professor who showed us the ropes and introduced us to a lot of cool people. I spent most of the time wandering the different villages, but did go to a couple talks about reverse engineering, car hacking, and IoT hacking.</description>
+    </item>
+    <item>
+      <title>WiCyS Conference</title>
+      <link>https://assouline.sh/blog/22-posts/wicys/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://assouline.sh/blog/22-posts/wicys/</guid>
+      <description>This month, I was one of four students chosen by Northeastern to attend the annual Women in Cybersecurity (WiCyS) conference, this year held in Cleveland, Ohio. Between meeting new people, cramming in as many talks and workshops as possible, learning about cyber jobs at the career fair, working with new friends on the CTF, listening to motivating speeches, and speaking to prospective students while hosting the Northeastern booth, my experience was packed with learning, connecting, and revitalized passion.</description>
+    </item>
+  </channel>
+</rss>
