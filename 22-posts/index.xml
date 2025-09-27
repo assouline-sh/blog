@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#39;22 Posts on assouline.sh</title>
-    <link>https://assouline.sh/blog/22-posts/</link>
+    <link>https://blog.assouline.sh/22-posts/</link>
     <description>Recent content in &#39;22 Posts on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://assouline.sh/blog/22-posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.assouline.sh/22-posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udemy: Complete Ethical Hacking Course</title>
-      <link>https://assouline.sh/blog/22-posts/udemy/</link>
+      <link>https://blog.assouline.sh/22-posts/udemy/</link>
       <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/udemy/</guid>
+      <guid>https://blog.assouline.sh/22-posts/udemy/</guid>
       <description>Completed The Complete Ethical Hacking Course on Udemy.
 This was a solid review of introductory cybersecurity topics and technical skills. While I didn&amp;rsquo;t learn many new concepts, I enjoyed coding the smaller projects alongside the course, like programming a MAC changer, network scanner, packet listener, and keylogger.
 Here are some of the main topics covered:
@@ -20,37 +20,37 @@ Hacker Methodology Reconnaissance System Pentesting Network Pentesting Wireless 
     </item>
     <item>
       <title>CS3500: Object Oriented Design</title>
-      <link>https://assouline.sh/blog/22-posts/cs3500/</link>
+      <link>https://blog.assouline.sh/22-posts/cs3500/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/cs3500/</guid>
+      <guid>https://blog.assouline.sh/22-posts/cs3500/</guid>
       <description>Object-Oriented Design (CS3500) has been the most challenging course to date. The demanding assignments with extensive testing, coupled with the doubled pace of the course (since I took it over the summer) was quite stressful. However, all the late nights were well worth it, as I feel my comprehension of coding concepts and Java skills have developed tremendously. At first it was intimidating to have such free-reign about design and approach, but it grew my confidence in my technical abilities, and became my favorite aspect of the course.</description>
     </item>
     <item>
       <title>Featured on Khoury Website</title>
-      <link>https://assouline.sh/blog/22-posts/feature/</link>
+      <link>https://blog.assouline.sh/22-posts/feature/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/feature/</guid>
+      <guid>https://blog.assouline.sh/22-posts/feature/</guid>
       <description>I gave a very brief interview about my experiences as a cybersecurity student, which is now featured on Khoury&amp;rsquo;s (Northeastern&amp;rsquo;s College of Computer Science) website for prospective students to gain a glimpse into the experiences of those in our degree program. My answers sound like an exaggerated pre-scripted ad, but I do genuinely enjoy Northeastern and the degree, and hope I can at least slightly sway others to come study cybersecurity here too :).</description>
     </item>
     <item>
       <title>CY2550: Foundations of Cybersecurity</title>
-      <link>https://assouline.sh/blog/22-posts/cy2550/</link>
+      <link>https://blog.assouline.sh/22-posts/cy2550/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/cy2550/</guid>
+      <guid>https://blog.assouline.sh/22-posts/cy2550/</guid>
       <description>Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to navigate the mass of information out there, I would be given structure- a clear learning path. Though I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through my cybersecurity degree; I can&amp;rsquo;t wait to take more challenging cyber classes.</description>
     </item>
     <item>
       <title>WiCyS Conference</title>
-      <link>https://assouline.sh/blog/22-posts/wicys/</link>
+      <link>https://blog.assouline.sh/22-posts/wicys/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/wicys/</guid>
+      <guid>https://blog.assouline.sh/22-posts/wicys/</guid>
       <description>This month, I was one of four students chosen by Northeastern to attend the annual Women in Cybersecurity (WiCyS) conference, this year held in Cleveland, Ohio. Between meeting new people, cramming in as many talks and workshops as possible, learning about cyber jobs at the career fair, working with new friends on the CTF, listening to motivating speeches, and speaking to prospective students while hosting the Northeastern booth, my experience was packed with learning, connecting, and revitalized passion.</description>
     </item>
     <item>
       <title>EdX: Basic Network and Database Security</title>
-      <link>https://assouline.sh/blog/22-posts/edx/</link>
+      <link>https://blog.assouline.sh/22-posts/edx/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/edx/</guid>
+      <guid>https://blog.assouline.sh/22-posts/edx/</guid>
       <description>Completed IBM&amp;rsquo;s course Basic Network and Database Security on EdX.
 This was really exciting, as it&amp;rsquo;s the first cybersecurity related online course I&amp;rsquo;ve completed independently. It was hard to make time for it everyday- juggling college classes, clubs, and other responsibilities- but overall incredibly rewarding. I&amp;rsquo;d like to continue to fit independent study within my schedule.
 Here are some of the main concepts covered:

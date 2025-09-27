@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>&#39;24 Posts on assouline.sh</title>
-    <link>https://assouline.sh/blog/24-posts/</link>
+    <link>https://blog.assouline.sh/24-posts/</link>
     <description>Recent content in &#39;24 Posts on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://assouline.sh/blog/24-posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.assouline.sh/24-posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Engineer at Klaviyo</title>
-      <link>https://assouline.sh/blog/24-posts/klaviyo/</link>
+      <link>https://blog.assouline.sh/24-posts/klaviyo/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/klaviyo/</guid>
+      <guid>https://blog.assouline.sh/24-posts/klaviyo/</guid>
       <description>Over the summer I was at Benchling, and for the fall I joined Klaviyo as a Security Engineer! I&amp;rsquo;m so grateful they could accommodate my later start date, because the team seemed great and I was so happy to gain further exposure to how security engineering is implemented at another company. Especially one that was a fellow startup that recently had an IPO.
 Unfortunately, I&amp;rsquo;m writing this recap almost a year later and my memory of my project details is fading.</description>
     </item>
     <item>
       <title>CTF Club: Versus CTF and CTF Thyme</title>
-      <link>https://assouline.sh/blog/24-posts/versus/</link>
+      <link>https://blog.assouline.sh/24-posts/versus/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/versus/</guid>
+      <guid>https://blog.assouline.sh/24-posts/versus/</guid>
       <description>Our two big CTF competitions this semester: Versus CTF and CTF Thyme!
 Versus CTF was a collaboration with RPI&amp;rsquo;s security club, which was a super fun addition! We started meeting over the summer to coordinate event planning and challenge creation. The theme was our two mascots- a husky and a puck (lol)- battling it out, streetfighter style! With both our e-boards contributing, we had over 40 original challenges. We were on a continuous zoom call during the competition, and our regular crises were live gaming challenges with one person from each school versus the other!</description>
     </item>
     <item>
       <title>Collegiate Pentesting Competition</title>
-      <link>https://assouline.sh/blog/24-posts/cptc24/</link>
+      <link>https://blog.assouline.sh/24-posts/cptc24/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/cptc24/</guid>
+      <guid>https://blog.assouline.sh/24-posts/cptc24/</guid>
       <description>Another year, another competition. Like last year (see previous post), I spent a significant time preparing since I haven&amp;rsquo;t messed with offsec tools in a while. I also thoroughly investigated past reports to try and find patterns in what vulnerabilities were present every year. Highly recommend this strat. CPTC
 This year, we were penetration testing consultants for OuiCroissant, the owners of a mock social media company Flakebook. We were tasked with testing both their internal networks and the web app for 8 hours, then had 7 hours afterwards to write a formal report of our findings.</description>
     </item>
     <item>
       <title>Security Engineer at Benchling</title>
-      <link>https://assouline.sh/blog/24-posts/benchling/</link>
+      <link>https://blog.assouline.sh/24-posts/benchling/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/benchling/</guid>
+      <guid>https://blog.assouline.sh/24-posts/benchling/</guid>
       <description>This past summer, I was a security engineering intern at Benchling, a biotech startup in SF! It was an amazing opportunity, and I feel greatly indebted to every single person I met there for being so kind and welcoming. I learned a lot about the company, how different security teams all work together in an enterprise, and about the beautiful city.
 The recruiter told our 8 person intern class that we were chosen from over 10,000 applicants.</description>
     </item>
     <item>
       <title>Captain for eCitadel Competition</title>
-      <link>https://assouline.sh/blog/24-posts/ecitadel/</link>
+      <link>https://blog.assouline.sh/24-posts/ecitadel/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/ecitadel/</guid>
+      <guid>https://blog.assouline.sh/24-posts/ecitadel/</guid>
       <description>Quick four hour competition this past weekend! I was the captain for our team of 4.
 The 2024 eCitadel Open had 4 systems: Windows Server 2016, Windows Server 2022, Linux Mint 21, and Alma Linux OS 9 which I was on. The competition is scored based on web challenges, maintaining critical services, and patching misconfigurations and vulnerabilities.
 Overall, we placed 43rd out of 159 teams. We didn&amp;rsquo;t take it too intensely, just enjoyed practicing security, forensic, configuration, and system administration on vulnerable systems.</description>
     </item>
     <item>
       <title>7th at National CCDC Competition</title>
-      <link>https://assouline.sh/blog/24-posts/ccdc24/</link>
+      <link>https://blog.assouline.sh/24-posts/ccdc24/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/ccdc24/</guid>
+      <guid>https://blog.assouline.sh/24-posts/ccdc24/</guid>
       <description>WOHOO!! We made it to CCDC nationals again this year! After competing in qualifiers in February and the Northeast regional against 10 other schools in March, we placed first and were able to go to San Antonio, Texas to compete nationally.
 This year, we were an HR company called HR-Hydra who had recently acquired another company, Roxxon. Like last year, we were given a diagram of the network about an hour before the start of competition.</description>
     </item>
     <item>
       <title>Basic MacOS Rice</title>
-      <link>https://assouline.sh/blog/24-posts/rice/</link>
+      <link>https://blog.assouline.sh/24-posts/rice/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/rice/</guid>
+      <guid>https://blog.assouline.sh/24-posts/rice/</guid>
       <description>Recently, I&amp;rsquo;ve been admiring the unqiue, personalized desktop environments showcased on r/unixporn. I love the ability to customize your digital space and how ricing combines both creativity and functionality to empower users. Though I unfortunately don&amp;rsquo;t daily drive Linux (yet), I was inspired to explore what customizations I could do within the bounds of being on MacOS.
 I switched to Alacritty as my terminal emulator for its speed, simplicity, and efficiency.</description>
     </item>
     <item>
       <title>CTF Club: SeaTF</title>
-      <link>https://assouline.sh/blog/24-posts/seatf/</link>
+      <link>https://blog.assouline.sh/24-posts/seatf/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/seatf/</guid>
+      <guid>https://blog.assouline.sh/24-posts/seatf/</guid>
       <description>Our last event of the semester: SeaTF! After another successful semester of general meetings and competitions, this event was a great way to end the year. We had almost 70 competitors, catered from our favorite local Thai restaurant, and kept the energy in the room dynamic with the introduction of regular crises- exciting, timed challenges (shoutout to President Evan for the idea!).
 Like last time, we included many easy challenges to ensure the event was fit for all experience levels, while still having various more difficult challenges.</description>
     </item>

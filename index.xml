@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>assouline.sh</title>
-    <link>https://assouline.sh/blog/</link>
+    <link>https://blog.assouline.sh/</link>
     <description>Recent content on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Sep 2025 19:46:03 +0000</lastBuildDate>
-    <atom:link href="https://assouline.sh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.assouline.sh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resources</title>
-      <link>https://assouline.sh/blog/resources/resources/</link>
+      <link>https://blog.assouline.sh/resources/resources/</link>
       <pubDate>Sun, 21 Sep 2025 19:46:03 +0000</pubDate>
-      <guid>https://assouline.sh/blog/resources/resources/</guid>
+      <guid>https://blog.assouline.sh/resources/resources/</guid>
       <description>Various resources I&amp;rsquo;ve used to learn and practice:
 Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Online CTF Tools Crypto
 Cyberchef DCode QuipQuip Stego
@@ -20,16 +20,16 @@ Steganography Papers and Books Linux Hardening In Hostile Networks: Server Secur
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://assouline.sh/blog/ctf/blah/</link>
+      <link>https://blog.assouline.sh/ctf/blah/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/ctf/blah/</guid>
+      <guid>https://blog.assouline.sh/ctf/blah/</guid>
       <description>This is the content of my first blog post.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://assouline.sh/blog/projects/projects/</link>
+      <link>https://blog.assouline.sh/projects/projects/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/projects/projects/</guid>
+      <guid>https://blog.assouline.sh/projects/projects/</guid>
       <description>05-2025 CTF Club Challenges
 As Co-Founder and VP of CTF club, I made challenges for meetings and competitions, varying in difficulty and topic.
 01-2024 Sniffer
@@ -39,184 +39,184 @@ Replace &amp;lsquo;rm&amp;rsquo; to log and save a hidden copy of a deleted file
     </item>
     <item>
       <title>DEFCON</title>
-      <link>https://assouline.sh/blog/25-posts/defcon/</link>
+      <link>https://blog.assouline.sh/25-posts/defcon/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/25-posts/defcon/</guid>
+      <guid>https://blog.assouline.sh/25-posts/defcon/</guid>
       <description>DEFCON !!!! AH !!!!!!
 I&amp;rsquo;ve been wanting to go for years, and this year my linux malware professor chose a handful of his students to take this year! It was such an amazing experience, but definitely largely thanks to my professor who showed us the ropes and introduced us to a lot of cool people. I spent most of the time wandering the different villages, but did go to a couple talks about reverse engineering, car hacking, and IoT hacking.</description>
     </item>
     <item>
       <title>College Graduation</title>
-      <link>https://assouline.sh/blog/25-posts/graduation/</link>
+      <link>https://blog.assouline.sh/25-posts/graduation/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/25-posts/graduation/</guid>
+      <guid>https://blog.assouline.sh/25-posts/graduation/</guid>
       <description>The day is finally here. I know this is what I&amp;rsquo;ve been working towards for four years, or more realistically, since like middle school, but it still doesn&amp;rsquo;t feel real. College graduations seemed to be this thing that happened to those older than me, and it didn&amp;rsquo;t really register that one year it would be my turn.
 Since freshman year spring I&amp;rsquo;ve been making small blog posts here, and it&amp;rsquo;s insane to look back at where I started.</description>
     </item>
     <item>
       <title>Linux Malware</title>
-      <link>https://assouline.sh/blog/25-posts/malware/</link>
+      <link>https://blog.assouline.sh/25-posts/malware/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/25-posts/malware/</guid>
+      <guid>https://blog.assouline.sh/25-posts/malware/</guid>
       <description>My last semester, I wanted to take advantage of one of the last opportunities I may have to take a truly challenging class. We learned the basics of reverse engineering, and for the final project my group and I wrote our own malware- including the client and C2 server as well as the implant- to target an ARM-based Linux raspberry pi.
 Our malware worked as follows:
 Once our implant is successfully loaded onto our target, it calls out to our C2 over TLS to register itself and obtain an ID for future communications.</description>
     </item>
     <item>
       <title>CTF Club: BIG CTF</title>
-      <link>https://assouline.sh/blog/25-posts/bigctf/</link>
+      <link>https://blog.assouline.sh/25-posts/bigctf/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/25-posts/bigctf/</guid>
+      <guid>https://blog.assouline.sh/25-posts/bigctf/</guid>
       <description>I can&amp;rsquo;t believe the time is here. My last CTF Club event :(. We grew from an idea into a pillar of the cybersecurity and computer science community at Northeastern. We are one of our school&amp;rsquo;s biggest clubs. I&amp;rsquo;ve had so much fun organizing and hosting all of our events, workshops, and competitions, and have made soooo many CTF challenges along the way. Over the years, we&amp;rsquo;ve truly built a community.</description>
     </item>
     <item>
       <title>Security Engineer at Klaviyo</title>
-      <link>https://assouline.sh/blog/24-posts/klaviyo/</link>
+      <link>https://blog.assouline.sh/24-posts/klaviyo/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/klaviyo/</guid>
+      <guid>https://blog.assouline.sh/24-posts/klaviyo/</guid>
       <description>Over the summer I was at Benchling, and for the fall I joined Klaviyo as a Security Engineer! I&amp;rsquo;m so grateful they could accommodate my later start date, because the team seemed great and I was so happy to gain further exposure to how security engineering is implemented at another company. Especially one that was a fellow startup that recently had an IPO.
 Unfortunately, I&amp;rsquo;m writing this recap almost a year later and my memory of my project details is fading.</description>
     </item>
     <item>
       <title>CTF Club: Versus CTF and CTF Thyme</title>
-      <link>https://assouline.sh/blog/24-posts/versus/</link>
+      <link>https://blog.assouline.sh/24-posts/versus/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/versus/</guid>
+      <guid>https://blog.assouline.sh/24-posts/versus/</guid>
       <description>Our two big CTF competitions this semester: Versus CTF and CTF Thyme!
 Versus CTF was a collaboration with RPI&amp;rsquo;s security club, which was a super fun addition! We started meeting over the summer to coordinate event planning and challenge creation. The theme was our two mascots- a husky and a puck (lol)- battling it out, streetfighter style! With both our e-boards contributing, we had over 40 original challenges. We were on a continuous zoom call during the competition, and our regular crises were live gaming challenges with one person from each school versus the other!</description>
     </item>
     <item>
       <title>Collegiate Pentesting Competition</title>
-      <link>https://assouline.sh/blog/24-posts/cptc24/</link>
+      <link>https://blog.assouline.sh/24-posts/cptc24/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/cptc24/</guid>
+      <guid>https://blog.assouline.sh/24-posts/cptc24/</guid>
       <description>Another year, another competition. Like last year (see previous post), I spent a significant time preparing since I haven&amp;rsquo;t messed with offsec tools in a while. I also thoroughly investigated past reports to try and find patterns in what vulnerabilities were present every year. Highly recommend this strat. CPTC
 This year, we were penetration testing consultants for OuiCroissant, the owners of a mock social media company Flakebook. We were tasked with testing both their internal networks and the web app for 8 hours, then had 7 hours afterwards to write a formal report of our findings.</description>
     </item>
     <item>
       <title>Security Engineer at Benchling</title>
-      <link>https://assouline.sh/blog/24-posts/benchling/</link>
+      <link>https://blog.assouline.sh/24-posts/benchling/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/benchling/</guid>
+      <guid>https://blog.assouline.sh/24-posts/benchling/</guid>
       <description>This past summer, I was a security engineering intern at Benchling, a biotech startup in SF! It was an amazing opportunity, and I feel greatly indebted to every single person I met there for being so kind and welcoming. I learned a lot about the company, how different security teams all work together in an enterprise, and about the beautiful city.
 The recruiter told our 8 person intern class that we were chosen from over 10,000 applicants.</description>
     </item>
     <item>
       <title>Captain for eCitadel Competition</title>
-      <link>https://assouline.sh/blog/24-posts/ecitadel/</link>
+      <link>https://blog.assouline.sh/24-posts/ecitadel/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/ecitadel/</guid>
+      <guid>https://blog.assouline.sh/24-posts/ecitadel/</guid>
       <description>Quick four hour competition this past weekend! I was the captain for our team of 4.
 The 2024 eCitadel Open had 4 systems: Windows Server 2016, Windows Server 2022, Linux Mint 21, and Alma Linux OS 9 which I was on. The competition is scored based on web challenges, maintaining critical services, and patching misconfigurations and vulnerabilities.
 Overall, we placed 43rd out of 159 teams. We didn&amp;rsquo;t take it too intensely, just enjoyed practicing security, forensic, configuration, and system administration on vulnerable systems.</description>
     </item>
     <item>
       <title>7th at National CCDC Competition</title>
-      <link>https://assouline.sh/blog/24-posts/ccdc24/</link>
+      <link>https://blog.assouline.sh/24-posts/ccdc24/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/ccdc24/</guid>
+      <guid>https://blog.assouline.sh/24-posts/ccdc24/</guid>
       <description>WOHOO!! We made it to CCDC nationals again this year! After competing in qualifiers in February and the Northeast regional against 10 other schools in March, we placed first and were able to go to San Antonio, Texas to compete nationally.
 This year, we were an HR company called HR-Hydra who had recently acquired another company, Roxxon. Like last year, we were given a diagram of the network about an hour before the start of competition.</description>
     </item>
     <item>
       <title>Basic MacOS Rice</title>
-      <link>https://assouline.sh/blog/24-posts/rice/</link>
+      <link>https://blog.assouline.sh/24-posts/rice/</link>
       <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/rice/</guid>
+      <guid>https://blog.assouline.sh/24-posts/rice/</guid>
       <description>Recently, I&amp;rsquo;ve been admiring the unqiue, personalized desktop environments showcased on r/unixporn. I love the ability to customize your digital space and how ricing combines both creativity and functionality to empower users. Though I unfortunately don&amp;rsquo;t daily drive Linux (yet), I was inspired to explore what customizations I could do within the bounds of being on MacOS.
 I switched to Alacritty as my terminal emulator for its speed, simplicity, and efficiency.</description>
     </item>
     <item>
       <title>CTF Club: SeaTF</title>
-      <link>https://assouline.sh/blog/24-posts/seatf/</link>
+      <link>https://blog.assouline.sh/24-posts/seatf/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/seatf/</guid>
+      <guid>https://blog.assouline.sh/24-posts/seatf/</guid>
       <description>Our last event of the semester: SeaTF! After another successful semester of general meetings and competitions, this event was a great way to end the year. We had almost 70 competitors, catered from our favorite local Thai restaurant, and kept the energy in the room dynamic with the introduction of regular crises- exciting, timed challenges (shoutout to President Evan for the idea!).
 Like last time, we included many easy challenges to ensure the event was fit for all experience levels, while still having various more difficult challenges.</description>
     </item>
     <item>
       <title>Cybersecurity Analyst at Draper</title>
-      <link>https://assouline.sh/blog/23-posts/draper/</link>
+      <link>https://blog.assouline.sh/23-posts/draper/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/draper/</guid>
+      <guid>https://blog.assouline.sh/23-posts/draper/</guid>
       <description>Just finished my first co-op experience: 7 months at Draper Labs as a Cybersecurity Analyst working in the SOC.
 Draper Labs is a non-profit research and development organization. This was my first time having a real adult job, and I learned a lot about how I want to move forward in the field, and about myself. I triaged daily alerts from Splunk, Carbon Black, and Proofpoint, which improved my skills in threat analysis, vulnerability management, and incident response.</description>
     </item>
     <item>
       <title>CompTIA CySA&#43; Certification</title>
-      <link>https://assouline.sh/blog/23-posts/cysa/</link>
+      <link>https://blog.assouline.sh/23-posts/cysa/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/cysa/</guid>
+      <guid>https://blog.assouline.sh/23-posts/cysa/</guid>
       <description>Passed CySA+! For a few months, I biked to the office an hour early so I could fit in a study session before the start of the workday. Since I&amp;rsquo;ve been on co-op as a Cybersecurity Analyst, I felt that obtaining this certification would be an appropriate reinforcement of the skills and knowledge I&amp;rsquo;m learning. Though there was a lot of content overlap with Security+, it delved deeper into threat detection and analysis, vulnerability management, and incident response.</description>
     </item>
     <item>
       <title>CTF Club: Sub-Z3r0 CTF</title>
-      <link>https://assouline.sh/blog/23-posts/subzero/</link>
+      <link>https://blog.assouline.sh/23-posts/subzero/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/subzero/</guid>
+      <guid>https://blog.assouline.sh/23-posts/subzero/</guid>
       <description>Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating with NUSecurity and Northeastern&amp;rsquo;s chapter of Women in Cybersecurity (WiCyS), catering food, handing out fliers, and getting our college to publicize the event to all Khoury students. With over 60+ competitors, it was the largest ever student-led security event at Northeastern.
 The two aforementioned clubs helped with event logistics, while we created the challenges. We included many easy challenges to make the event accessible for complete beginners, and a handful of harder challenges definitely stumped those with more experience.</description>
     </item>
     <item>
       <title>First Keyboard Build</title>
-      <link>https://assouline.sh/blog/23-posts/keyborb/</link>
+      <link>https://blog.assouline.sh/23-posts/keyborb/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/keyborb/</guid>
+      <guid>https://blog.assouline.sh/23-posts/keyborb/</guid>
       <description>I&amp;rsquo;ve been admiring KAM Superuser keycaps for a while, and finally bought them for my first custom build. I splurged on the novelties, but it was entirely worth it. Paired with Epomaker Sea Salt Silent Switches for a soft sound that wouldn&amp;rsquo;t be picked up by a mic on calls, and RK68 65% Wireless Keyboard for something lightweight and portable.
 It turned out perfectly. I have commands like grep, env, whoami, and sudo su on my keycaps!</description>
     </item>
     <item>
       <title>Collegiate Pentesting Competition</title>
-      <link>https://assouline.sh/blog/23-posts/cptc/</link>
+      <link>https://blog.assouline.sh/23-posts/cptc/</link>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/cptc/</guid>
+      <guid>https://blog.assouline.sh/23-posts/cptc/</guid>
       <description>This weekend I competed in the Collegiate Penetration Testing Competition (CPTC) with a team of other Northeastern cybersecurity students. This was my first time engaging in offensive security, and I spent a lot of time preparing. I read both Learn Penetration Testing and Penetration Testing: A Survival Guide, practiced on Hack the Box and VulnHub, and messed around with all the different tools out there.
 This year, we were penetration testing consultants for an airport.</description>
     </item>
     <item>
       <title>10th at Cyberforce Competition</title>
-      <link>https://assouline.sh/blog/23-posts/cyberforce/</link>
+      <link>https://blog.assouline.sh/23-posts/cyberforce/</link>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/cyberforce/</guid>
+      <guid>https://blog.assouline.sh/23-posts/cyberforce/</guid>
       <description>Myself and other CCDC members competed in Cyberforce and ranked 10th out of 100+ teams!
 For the competition, we were the technical team at a distributed energy resource management company, DER8.9. We were responsible for the integration, maintenance, and security for all internal system infrastructure and remote client management software, including a fully integrated ICS.
 Before the official start of the competition, we were given access to the infrastructure we would need to defend.</description>
     </item>
     <item>
       <title>Starting CTF Club at Northeastern</title>
-      <link>https://assouline.sh/blog/23-posts/ctfclub/</link>
+      <link>https://blog.assouline.sh/23-posts/ctfclub/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/ctfclub/</guid>
+      <guid>https://blog.assouline.sh/23-posts/ctfclub/</guid>
       <description>This semester, myself and a talented group of fellow cybersecurity students are starting a CTF club at Northeastern. While there is already a cybersecurity club on campus, they largely focus on social and networking events. Myself and others noticed a gap in technical, hands-on cybersecurity events where students could practice and learn new skills.
 As a co-founder and Vice President, I have been crafting CTF challenges for our upcoming competitions and weekly general meetings.</description>
     </item>
     <item>
       <title>5th at National CCDC Competition</title>
-      <link>https://assouline.sh/blog/23-posts/ccdc23/</link>
+      <link>https://blog.assouline.sh/23-posts/ccdc23/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/ccdc23/</guid>
+      <guid>https://blog.assouline.sh/23-posts/ccdc23/</guid>
       <description>This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber Defense Competition in Texas. After two days of intense competition, we placed 5th in the nation!
 This was undoubtedly the most stressful and fun cybersecurity experience I&amp;rsquo;ve ever had. We were given the diagram of the network infrastructure only an hour before the start of the competition, and we scrambled to establish a game plan.</description>
     </item>
     <item>
       <title>CY3740: System Security</title>
-      <link>https://assouline.sh/blog/23-posts/cy3740/</link>
+      <link>https://blog.assouline.sh/23-posts/cy3740/</link>
       <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/cy3740/</guid>
+      <guid>https://blog.assouline.sh/23-posts/cy3740/</guid>
       <description>System Security (CY3740) was- and I anticipate always will remain- the best course I have taken at Northeastern. I strongly believe that every student in Khoury should take it, as no other class will push and engage you as much as this one. Professor Kaan gives students an extremely thorough, rigorous, and technical experience that ensures you fully understand the depth of the course material. All assignments were conducting real exploits against vulnerable systems, and submitting flags to prove victory.</description>
     </item>
     <item>
       <title>CompTIA Security&#43; Certification</title>
-      <link>https://assouline.sh/blog/23-posts/security/</link>
+      <link>https://blog.assouline.sh/23-posts/security/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/security/</guid>
+      <guid>https://blog.assouline.sh/23-posts/security/</guid>
       <description>Passed Security+! After consistently studying all of Fall semester, I hunkered down during the last week of winter break to cram as many practice tests as possible. It was important to me to set a goal and steadily move towards it to help build the habit of continuous self improvement and learning. The content supplemented my coursework nicely, and often acted as a reinforcement. I enjoyed that the questions pushed me to apply my conceptual knowledge to realistic scenarios.</description>
     </item>
     <item>
       <title>Udemy: Complete Ethical Hacking Course</title>
-      <link>https://assouline.sh/blog/22-posts/udemy/</link>
+      <link>https://blog.assouline.sh/22-posts/udemy/</link>
       <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/udemy/</guid>
+      <guid>https://blog.assouline.sh/22-posts/udemy/</guid>
       <description>Completed The Complete Ethical Hacking Course on Udemy.
 This was a solid review of introductory cybersecurity topics and technical skills. While I didn&amp;rsquo;t learn many new concepts, I enjoyed coding the smaller projects alongside the course, like programming a MAC changer, network scanner, packet listener, and keylogger.
 Here are some of the main topics covered:
@@ -224,37 +224,37 @@ Hacker Methodology Reconnaissance System Pentesting Network Pentesting Wireless 
     </item>
     <item>
       <title>CS3500: Object Oriented Design</title>
-      <link>https://assouline.sh/blog/22-posts/cs3500/</link>
+      <link>https://blog.assouline.sh/22-posts/cs3500/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/cs3500/</guid>
+      <guid>https://blog.assouline.sh/22-posts/cs3500/</guid>
       <description>Object-Oriented Design (CS3500) has been the most challenging course to date. The demanding assignments with extensive testing, coupled with the doubled pace of the course (since I took it over the summer) was quite stressful. However, all the late nights were well worth it, as I feel my comprehension of coding concepts and Java skills have developed tremendously. At first it was intimidating to have such free-reign about design and approach, but it grew my confidence in my technical abilities, and became my favorite aspect of the course.</description>
     </item>
     <item>
       <title>Featured on Khoury Website</title>
-      <link>https://assouline.sh/blog/22-posts/feature/</link>
+      <link>https://blog.assouline.sh/22-posts/feature/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/feature/</guid>
+      <guid>https://blog.assouline.sh/22-posts/feature/</guid>
       <description>I gave a very brief interview about my experiences as a cybersecurity student, which is now featured on Khoury&amp;rsquo;s (Northeastern&amp;rsquo;s College of Computer Science) website for prospective students to gain a glimpse into the experiences of those in our degree program. My answers sound like an exaggerated pre-scripted ad, but I do genuinely enjoy Northeastern and the degree, and hope I can at least slightly sway others to come study cybersecurity here too :).</description>
     </item>
     <item>
       <title>CY2550: Foundations of Cybersecurity</title>
-      <link>https://assouline.sh/blog/22-posts/cy2550/</link>
+      <link>https://blog.assouline.sh/22-posts/cy2550/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/cy2550/</guid>
+      <guid>https://blog.assouline.sh/22-posts/cy2550/</guid>
       <description>Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to navigate the mass of information out there, I would be given structure- a clear learning path. Though I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through my cybersecurity degree; I can&amp;rsquo;t wait to take more challenging cyber classes.</description>
     </item>
     <item>
       <title>WiCyS Conference</title>
-      <link>https://assouline.sh/blog/22-posts/wicys/</link>
+      <link>https://blog.assouline.sh/22-posts/wicys/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/wicys/</guid>
+      <guid>https://blog.assouline.sh/22-posts/wicys/</guid>
       <description>This month, I was one of four students chosen by Northeastern to attend the annual Women in Cybersecurity (WiCyS) conference, this year held in Cleveland, Ohio. Between meeting new people, cramming in as many talks and workshops as possible, learning about cyber jobs at the career fair, working with new friends on the CTF, listening to motivating speeches, and speaking to prospective students while hosting the Northeastern booth, my experience was packed with learning, connecting, and revitalized passion.</description>
     </item>
     <item>
       <title>EdX: Basic Network and Database Security</title>
-      <link>https://assouline.sh/blog/22-posts/edx/</link>
+      <link>https://blog.assouline.sh/22-posts/edx/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/22-posts/edx/</guid>
+      <guid>https://blog.assouline.sh/22-posts/edx/</guid>
       <description>Completed IBM&amp;rsquo;s course Basic Network and Database Security on EdX.
 This was really exciting, as it&amp;rsquo;s the first cybersecurity related online course I&amp;rsquo;ve completed independently. It was hard to make time for it everyday- juggling college classes, clubs, and other responsibilities- but overall incredibly rewarding. I&amp;rsquo;d like to continue to fit independent study within my schedule.
 Here are some of the main concepts covered:

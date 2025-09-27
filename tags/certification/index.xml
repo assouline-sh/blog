@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>certification on assouline.sh</title>
-    <link>https://assouline.sh/blog/tags/certification/</link>
+    <link>https://blog.assouline.sh/tags/certification/</link>
     <description>Recent content in certification on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://assouline.sh/blog/tags/certification/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.assouline.sh/tags/certification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CompTIA CySA&#43; Certification</title>
-      <link>https://assouline.sh/blog/23-posts/cysa/</link>
+      <link>https://blog.assouline.sh/23-posts/cysa/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/cysa/</guid>
+      <guid>https://blog.assouline.sh/23-posts/cysa/</guid>
       <description>Passed CySA+! For a few months, I biked to the office an hour early so I could fit in a study session before the start of the workday. Since I&amp;rsquo;ve been on co-op as a Cybersecurity Analyst, I felt that obtaining this certification would be an appropriate reinforcement of the skills and knowledge I&amp;rsquo;m learning. Though there was a lot of content overlap with Security+, it delved deeper into threat detection and analysis, vulnerability management, and incident response.</description>
     </item>
     <item>
       <title>CompTIA Security&#43; Certification</title>
-      <link>https://assouline.sh/blog/23-posts/security/</link>
+      <link>https://blog.assouline.sh/23-posts/security/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/security/</guid>
+      <guid>https://blog.assouline.sh/23-posts/security/</guid>
       <description>Passed Security+! After consistently studying all of Fall semester, I hunkered down during the last week of winter break to cram as many practice tests as possible. It was important to me to set a goal and steadily move towards it to help build the habit of continuous self improvement and learning. The content supplemented my coursework nicely, and often acted as a reinforcement. I enjoyed that the questions pushed me to apply my conceptual knowledge to realistic scenarios.</description>
     </item>
   </channel>

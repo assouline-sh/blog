@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ctf club on assouline.sh</title>
-    <link>https://assouline.sh/blog/tags/ctf-club/</link>
+    <link>https://blog.assouline.sh/tags/ctf-club/</link>
     <description>Recent content in ctf club on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://assouline.sh/blog/tags/ctf-club/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.assouline.sh/tags/ctf-club/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTF Club: BIG CTF</title>
-      <link>https://assouline.sh/blog/25-posts/bigctf/</link>
+      <link>https://blog.assouline.sh/25-posts/bigctf/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/25-posts/bigctf/</guid>
+      <guid>https://blog.assouline.sh/25-posts/bigctf/</guid>
       <description>I can&amp;rsquo;t believe the time is here. My last CTF Club event :(. We grew from an idea into a pillar of the cybersecurity and computer science community at Northeastern. We are one of our school&amp;rsquo;s biggest clubs. I&amp;rsquo;ve had so much fun organizing and hosting all of our events, workshops, and competitions, and have made soooo many CTF challenges along the way. Over the years, we&amp;rsquo;ve truly built a community.</description>
     </item>
     <item>
       <title>CTF Club: Versus CTF and CTF Thyme</title>
-      <link>https://assouline.sh/blog/24-posts/versus/</link>
+      <link>https://blog.assouline.sh/24-posts/versus/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/versus/</guid>
+      <guid>https://blog.assouline.sh/24-posts/versus/</guid>
       <description>Our two big CTF competitions this semester: Versus CTF and CTF Thyme!
 Versus CTF was a collaboration with RPI&amp;rsquo;s security club, which was a super fun addition! We started meeting over the summer to coordinate event planning and challenge creation. The theme was our two mascots- a husky and a puck (lol)- battling it out, streetfighter style! With both our e-boards contributing, we had over 40 original challenges. We were on a continuous zoom call during the competition, and our regular crises were live gaming challenges with one person from each school versus the other!</description>
     </item>
     <item>
       <title>CTF Club: SeaTF</title>
-      <link>https://assouline.sh/blog/24-posts/seatf/</link>
+      <link>https://blog.assouline.sh/24-posts/seatf/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/24-posts/seatf/</guid>
+      <guid>https://blog.assouline.sh/24-posts/seatf/</guid>
       <description>Our last event of the semester: SeaTF! After another successful semester of general meetings and competitions, this event was a great way to end the year. We had almost 70 competitors, catered from our favorite local Thai restaurant, and kept the energy in the room dynamic with the introduction of regular crises- exciting, timed challenges (shoutout to President Evan for the idea!).
 Like last time, we included many easy challenges to ensure the event was fit for all experience levels, while still having various more difficult challenges.</description>
     </item>
     <item>
       <title>CTF Club: Sub-Z3r0 CTF</title>
-      <link>https://assouline.sh/blog/23-posts/subzero/</link>
+      <link>https://blog.assouline.sh/23-posts/subzero/</link>
       <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/subzero/</guid>
+      <guid>https://blog.assouline.sh/23-posts/subzero/</guid>
       <description>Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating with NUSecurity and Northeastern&amp;rsquo;s chapter of Women in Cybersecurity (WiCyS), catering food, handing out fliers, and getting our college to publicize the event to all Khoury students. With over 60+ competitors, it was the largest ever student-led security event at Northeastern.
 The two aforementioned clubs helped with event logistics, while we created the challenges. We included many easy challenges to make the event accessible for complete beginners, and a handful of harder challenges definitely stumped those with more experience.</description>
     </item>
     <item>
       <title>Starting CTF Club at Northeastern</title>
-      <link>https://assouline.sh/blog/23-posts/ctfclub/</link>
+      <link>https://blog.assouline.sh/23-posts/ctfclub/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://assouline.sh/blog/23-posts/ctfclub/</guid>
+      <guid>https://blog.assouline.sh/23-posts/ctfclub/</guid>
       <description>This semester, myself and a talented group of fellow cybersecurity students are starting a CTF club at Northeastern. While there is already a cybersecurity club on campus, they largely focus on social and networking events. Myself and others noticed a gap in technical, hands-on cybersecurity events where students could practice and learn new skills.
 As a co-founder and Vice President, I have been crafting CTF challenges for our upcoming competitions and weekly general meetings.</description>
     </item>
