@@ -6,36 +6,14 @@
     <description>Recent content on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 19:46:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.assouline.sh/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Resources</title>
-      <link>https://blog.assouline.sh/resources/resources/</link>
-      <pubDate>Sun, 21 Sep 2025 19:46:03 +0000</pubDate>
-      <guid>https://blog.assouline.sh/resources/resources/</guid>
-      <description>Various resources I&amp;rsquo;ve used to learn and practice:
-Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Online CTF Tools Crypto
-Cyberchef DCode QuipQuip Stego
-Steganography Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
-    </item>
     <item>
       <title>My First Post</title>
       <link>https://blog.assouline.sh/ctf/blah/</link>
       <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.assouline.sh/ctf/blah/</guid>
       <description>This is the content of my first blog post.</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>https://blog.assouline.sh/projects/projects/</link>
-      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.assouline.sh/projects/projects/</guid>
-      <description>05-2025 CTF Club Challenges
-As Co-Founder and VP of CTF club, I made challenges for meetings and competitions, varying in difficulty and topic.
-01-2024 Sniffer
-Sniff unencrypted credentials by poisoning a target&amp;rsquo;s ARP cache and redirecting all traffic through the attacking system.
-12-2023 Shadow Deletion
-Replace &amp;lsquo;rm&amp;rsquo; to log and save a hidden copy of a deleted file. Intended to retain evidence when an attacker tries to clean up their presence.</description>
     </item>
     <item>
       <title>DEFCON</title>
@@ -70,6 +48,18 @@ Once our implant is successfully loaded onto our target, it calls out to our C2 
       <description>I can&amp;rsquo;t believe the time is here. My last CTF Club event :(. We grew from an idea into a pillar of the cybersecurity and computer science community at Northeastern. We are one of our school&amp;rsquo;s biggest clubs. I&amp;rsquo;ve had so much fun organizing and hosting all of our events, workshops, and competitions, and have made soooo many CTF challenges along the way. Over the years, we&amp;rsquo;ve truly built a community.</description>
     </item>
     <item>
+      <title>Projects</title>
+      <link>https://blog.assouline.sh/projects/projects/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/projects/projects/</guid>
+      <description>05-2025 CTF Club Challenges
+As Co-Founder and VP of CTF club, I made challenges for meetings and competitions, varying in difficulty and topic.
+01-2024 Sniffer
+Sniff unencrypted credentials by poisoning a target&amp;rsquo;s ARP cache and redirecting all traffic through the attacking system.
+12-2023 Shadow Deletion
+Replace &amp;lsquo;rm&amp;rsquo; to log and save a hidden copy of a deleted file. Intended to retain evidence when an attacker tries to clean up their presence.</description>
+    </item>
+    <item>
       <title>Security Engineer at Klaviyo</title>
       <link>https://blog.assouline.sh/24-posts/klaviyo/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
@@ -92,6 +82,16 @@ Versus CTF was a collaboration with RPI&amp;rsquo;s security club, which was a s
       <guid>https://blog.assouline.sh/24-posts/cptc24/</guid>
       <description>Another year, another competition. Like last year (see previous post), I spent a significant time preparing since I haven&amp;rsquo;t messed with offsec tools in a while. I also thoroughly investigated past reports to try and find patterns in what vulnerabilities were present every year. Highly recommend this strat. CPTC
 This year, we were penetration testing consultants for OuiCroissant, the owners of a mock social media company Flakebook. We were tasked with testing both their internal networks and the web app for 8 hours, then had 7 hours afterwards to write a formal report of our findings.</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://blog.assouline.sh/resources/resources/</link>
+      <pubDate>Sat, 21 Sep 2024 19:46:03 +0000</pubDate>
+      <guid>https://blog.assouline.sh/resources/resources/</guid>
+      <description>Various resources I&amp;rsquo;ve used to learn and practice:
+Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Online CTF Tools Crypto
+Cyberchef DCode QuipQuip Stego
+Steganography Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
     </item>
     <item>
       <title>Security Engineer at Benchling</title>
