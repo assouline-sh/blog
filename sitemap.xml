@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.assouline.sh/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-21T19:46:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/resources/</loc>
+    <lastmod>2025-09-21T19:46:03+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/resources/resources/</loc>
+    <lastmod>2025-09-21T19:46:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/categories/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
@@ -25,6 +31,12 @@
   </url><url>
     <loc>https://blog.assouline.sh/tags/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/projects/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/projects/projects/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/25-posts/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
@@ -50,12 +62,6 @@
     <loc>https://blog.assouline.sh/25-posts/bigctf/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.assouline.sh/projects/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/projects/projects/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.assouline.sh/24-posts/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -73,12 +79,6 @@
   </url><url>
     <loc>https://blog.assouline.sh/tags/competition/</loc>
     <lastmod>2024-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/resources/</loc>
-    <lastmod>2024-09-21T19:46:03+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/resources/resources/</loc>
-    <lastmod>2024-09-21T19:46:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/24-posts/benchling/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
