@@ -11,27 +11,6 @@
     <loc>https://blog.assouline.sh/resources/resources/</loc>
     <lastmod>2025-09-21T19:46:03+00:00</lastmod>
   </url><url>
-    <loc>https://blog.assouline.sh/categories/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/ctf/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/categories/general/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/tags/hugo/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/ctf/blah/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/tags/static-site/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.assouline.sh/tags/</loc>
-    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.assouline.sh/projects/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,6 +24,9 @@
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/25-posts/defcon/</loc>
+    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/tags/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/25-posts/graduation/</loc>
@@ -156,5 +138,7 @@
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/author/</loc>
+  </url><url>
+    <loc>https://blog.assouline.sh/categories/</loc>
   </url>
 </urlset>
