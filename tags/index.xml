@@ -6,8 +6,15 @@
     <description>Recent content in Tags on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.assouline.sh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ctf</title>
+      <link>https://blog.assouline.sh/tags/ctf/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/tags/ctf/</guid>
+      <description></description>
+    </item>
     <item>
       <title>conference</title>
       <link>https://blog.assouline.sh/tags/conference/</link>

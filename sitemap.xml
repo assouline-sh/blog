@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.assouline.sh/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/tags/ctf/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/ctfs/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/tags/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/ctfs/v1t_ctf/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.assouline.sh/ctfs/ctf-resources/</loc>
     <lastmod>2025-09-21T19:46:03+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/resources/</loc>
@@ -26,8 +41,8 @@
     <loc>https://blog.assouline.sh/25-posts/defcon/</loc>
     <lastmod>2025-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.assouline.sh/tags/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <loc>https://blog.assouline.sh/ctfs/247_walkthrough/</loc>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.assouline.sh/25-posts/graduation/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>

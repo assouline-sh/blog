@@ -6,17 +6,37 @@
     <description>Recent content on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 19:46:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.assouline.sh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>V1t CTF</title>
+      <link>https://blog.assouline.sh/ctfs/v1t_ctf/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/ctfs/v1t_ctf/</guid>
+      <description>Crypto Lost Some Binary &amp;ldquo;SOS we lost some binary sir!&amp;rdquo;
+The result of converting binary to ASCII (and the challenge name) hints to look at the LSB.
+Then extract the LSB of each byte and decode the binary again to get the flag.
+🚩v1t{LSB:&amp;gt;}
+Rev Python 0bf &amp;ldquo;You don&amp;rsquo;t need to deobfuscate the Python, but that&amp;rsquo;s up to you. ;-;&amp;rdquo;
+We are given a python file that obfuscates some data. Write a small script to undo the same operations (reverse string, base64 decode, zlib decompress), and repeat until flag is found.</description>
+    </item>
+    <item>
+      <title>CTF Resources</title>
+      <link>https://blog.assouline.sh/ctfs/ctf-resources/</link>
+      <pubDate>Sun, 21 Sep 2025 19:46:03 +0000</pubDate>
+      <guid>https://blog.assouline.sh/ctfs/ctf-resources/</guid>
+      <description>Tools Crypto
+Cyberchef DCode QuipQuip Stego
+Steganography Steg Online Misc
+Emoji Encoding Morse Decoder or this one References Vim GTFOBins </description>
+    </item>
     <item>
       <title>Resources</title>
       <link>https://blog.assouline.sh/resources/resources/</link>
       <pubDate>Sun, 21 Sep 2025 19:46:03 +0000</pubDate>
       <guid>https://blog.assouline.sh/resources/resources/</guid>
       <description>Various resources I&amp;rsquo;ve used to learn and practice:
-Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Online CTF Tools Crypto
-Cyberchef DCode QuipQuip Stego
-Steganography Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
+Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
     </item>
     <item>
       <title>Projects</title>
@@ -37,6 +57,15 @@ Replace &amp;lsquo;rm&amp;rsquo; to log and save a hidden copy of a deleted file
       <guid>https://blog.assouline.sh/25-posts/defcon/</guid>
       <description>DEFCON !!!! AH !!!!!!
 I&amp;rsquo;ve been wanting to go for years, and this year my linux malware professor chose a handful of his students to take this year! It was such an amazing experience, but definitely largely thanks to my professor who showed us the ropes and introduced us to a lot of cool people. I spent most of the time wandering the different villages, but did go to a couple talks about reverse engineering, car hacking, and IoT hacking.</description>
+    </item>
+    <item>
+      <title>247 CTF Walkthrough</title>
+      <link>https://blog.assouline.sh/ctfs/247_walkthrough/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/ctfs/247_walkthrough/</guid>
+      <description>Crypto My Magic Bytes &amp;ldquo;Can you recover the secret XOR key we used to encrypt the flag?&amp;rdquo;
+Knowing the properties of XOR and the magic bytes for a jpg, we can recover the key by XORing the beginning bytes of the file with FF D8 FF E0 00 10 4A 46 49 46 00 01
+Then with the following script, we XOR the key with the file. The result of this is an image which has the flag!</description>
     </item>
     <item>
       <title>College Graduation</title>
