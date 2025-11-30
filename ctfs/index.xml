@@ -6,13 +6,22 @@
     <description>Recent content in CTFs on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.assouline.sh/ctfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Buckeye CTF</title>
+      <link>https://blog.assouline.sh/ctfs/buckeye25/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/ctfs/buckeye25/</guid>
+      <description>Web EBG13 &amp;ldquo;V znqr na ncc gung yrgf lbh ivrj gur ebg13 irefvba bs nal jrofvgr!&amp;rdquo;
+The website for this challenge lets you input a url and returns the contents of the given website encoded in ROT13. We are given the source code in server.js which specifies an endpoint /admin that will return the flag if the request originates from localhost.
+fastify.get(&amp;#39;/admin&amp;#39;, async (req, reply) =&amp;gt; { if (req.ip === &amp;#34;127.</description>
+    </item>
+    <item>
       <title>V1t CTF</title>
-      <link>https://blog.assouline.sh/ctfs/v1t_ctf/</link>
+      <link>https://blog.assouline.sh/ctfs/v1t_ctf25/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.assouline.sh/ctfs/v1t_ctf/</guid>
+      <guid>https://blog.assouline.sh/ctfs/v1t_ctf25/</guid>
       <description>Crypto Lost Some Binary &amp;ldquo;SOS we lost some binary sir!&amp;rdquo;
 The result of converting binary to ASCII (and the challenge name) hints to look at the LSB.
 Then extract the LSB of each byte and decode the binary again to get the flag.

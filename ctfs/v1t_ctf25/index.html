@@ -35,7 +35,7 @@
 
     <title>
         
-            DEFCON |
+            V1t CTF |
             assouline.sh
         
     </title>
@@ -108,7 +108,7 @@
 
     <div class="header_middle">
         
-            DEFCON -
+            V1t CTF -
             assouline.sh
         
     </div>
@@ -500,7 +500,7 @@
             
                 <li
                     
-                        class="dir opened-dir"
+                        class="dir closed-dir"
                     >
                     <span class="dir-text"> &#39;25 Posts </span>
 
@@ -674,7 +674,7 @@
             
                 <li
                     
-                        class="dir closed-dir"
+                        class="dir opened-dir"
                     >
                     <span class="dir-text"> CTFs </span>
 
@@ -770,7 +770,7 @@
 
         <div class="title">
             <h1 class="title-header">
-                DEFCON
+                V1t CTF
             </h1>
 
             <div class="author-date-readtime">
@@ -779,8 +779,8 @@
                     <div class="date" title="Date">
                         <i class="bi bi-calendar3"></i>
                         <time
-                            datetime="2025.08.11"
-                            >2025.08.11
+                            datetime="2025.11.01"
+                            >2025.11.01
                         </time>
                     </div>
                 
@@ -798,9 +798,9 @@
                         title="Tags"></i>
                     
                         <a
-                            href="/tags/conference/"
+                            href="/tags/ctf/"
                             class="tag-btn">
-                            conference
+                            ctf
                         </a>
                     
                 </div>
@@ -833,11 +833,11 @@
 
 
 
-<a href="https://blog.assouline.sh/25-posts/" class="bread-btn">
+<a href="https://blog.assouline.sh/ctfs/" class="bread-btn">
     
 
     
-        &#39;25 Posts
+        CTFs
     
 </a>
 
@@ -848,12 +848,12 @@
 
 
 
-<a href="https://blog.assouline.sh/25-posts/defcon/" class="bread-btn">
+<a href="https://blog.assouline.sh/ctfs/v1t_ctf25/" class="bread-btn">
     
 
     
         
-            DEFCON
+            V1t CTF
         
 
     
@@ -866,26 +866,109 @@
 
         <div class="content">
             
-                <p>DEFCON !!!! AH !!!!!!</p>
-<p>I&rsquo;ve been wanting to go for years, and this year my linux malware professor chose a handful of his students to take this year! It was such an amazing experience, but definitely largely thanks to my professor who showed us the ropes and introduced us to a lot of cool people. I spent most of the time wandering the different villages, but did go to a couple talks about reverse engineering, car hacking, and IoT hacking. I was super fascinated by the car hacking village, and the Ford F-150 in a box!</p>
-<p>My experience was definitely so fun because several people I knew were also in attendance. The benefit of having cyber friends is having a friendship reunion at conferences! Ultimately, my greatest takeaway from the conference is that there&rsquo;s a lot of cool work in this field, a lot I don&rsquo;t know, and that I just need to start. I&rsquo;ve always been so paralyzed by all the possibilities this field has to offer, but I just need to choose something that catches my attention and start, instead of overthinking it.</p>
-<p>This truly felt like a proper inauguration into being a real cybersecurity professional.</p>
-<hr>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th style="text-align:center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="/img/defcon1.png" alt="Defcon"></td>
-<td style="text-align:center"><img src="/img/defcon2.png" alt="Defcon"></td>
-</tr>
-</tbody>
-</table>
-<hr>
+                <h2 id="crypto">Crypto</h2>
+<h3 id="lost-some-binary">Lost Some Binary</h3>
+<p>&ldquo;SOS we lost some binary sir!&rdquo;</p>
+<p>The result of converting binary to ASCII (and the challenge name) hints to look at the LSB.</p>
+<p><img src="/ctf/25-v1t/LSB.png" alt="LSB">
+Then extract the LSB of each byte and decode the binary again to get the flag.</p>
+<p><code>🚩v1t{LSB:&gt;}</code></p>
+<h2 id="rev">Rev</h2>
+<h3 id="python-0bf">Python 0bf</h3>
+<p>&ldquo;You don&rsquo;t need to deobfuscate the Python, but that&rsquo;s up to you. ;-;&rdquo;</p>
+<p>We are given a python file that obfuscates some data. Write a small script to undo the same operations (reverse string, base64 decode, zlib decompress), and repeat until flag is found.</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="import%20base64,%20zlib%0a%0aenc%20=%20%27==A4ZjPKD8/33n//U2qxMQkZ9we64U&#43;EQg...%27%0a%0awhile%20True:%0a%20%20%20%20try:%0a%20%20%20%20%20%20%20%20enc%20=%20enc[::-1]%0a%20%20%20%20%20%20%20%20b64_dec%20=%20base64.b64decode%28enc%29%0a%20%20%20%20%20%20%20%20zlib_dec%20=%20zlib.decompress%28b64_dec%29%20%20%20%20%20%20%20%20%0a%20%20%20%20%20%20%20%20enc%20=%20zlib_dec.decode%28%29[11:-3]%20%0a%20%20%20%20%20%20%20%20print%28enc%29%0a%20%20%20%20except%20Exception%20as%20e:%0a%20%20%20%20%20%20%20%20print%28e%29%0a%20%20%20%20%20%20%20%20break">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>import base64, zlib
+
+enc = &#39;==A4ZjPKD8/33n//U2qxMQkZ9we64U&#43;EQg...&#39;
+
+while True:
+    try:
+        enc = enc[::-1]
+        b64_dec = base64.b64decode(enc)
+        zlib_dec = zlib.decompress(b64_dec)        
+        enc = zlib_dec.decode()[11:-3] 
+        print(enc)
+    except Exception as e:
+        print(e)
+        break</code></pre>
+    
+</div>
+<p><code>🚩v1t{d4ng_u_kn0w_pyth0n_d3bugg}</code></p>
+<h2 id="pwn">Pwn</h2>
+<h3 id="waddler">Waddler</h3>
+<p>&ldquo;Poke it the right way and it hums back something useful.&rdquo;</p>
+<p>Open the binary in ghidra and see there is a function <code>duck()</code> that reads flag.txt and prints it. However, this function is not called anywhere. This seems like a basic buffer overflow where we need to overwrite the return address with the address of <code>duck()</code>. We calculate the offset by taking the sum of the buffer (64) + saved RBP (8) and find the function address to be at <code>0x40128C</code>. The following exploit gets us our flag:</p>
+<p><img src="/ctf/25-v1t/waddler.png" alt="waddler"></p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="python3%20-c%20%22import%20struct,sys,time;%20time.sleep%281%29;%20sys.stdout.buffer.write%28b%27A%27*72%20&#43;%20struct.pack%28%27%3cQ%27,0x40128c%29%20&#43;%20b%27%5cn%27%29%22%20%7c%20nc%20chall.v1t.site%2030210">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>python3 -c &#34;import struct,sys,time; time.sleep(1); sys.stdout.buffer.write(b&#39;A&#39;*72 &#43; struct.pack(&#39;&lt;Q&#39;,0x40128c) &#43; b&#39;\n&#39;)&#34; | nc chall.v1t.site 30210</code></pre>
+    
+</div>
+<p><code>🚩v1t{w4ddl3r_3x1t5_4e4d6c332b6fe62a63afe56171fd3725}</code></p>
+<h2 id="misc">Misc</h2>
+<h3 id="talking-duck">Talking Duck</h3>
+<p>&ldquo;Bro this duck is talking to me or something?&rdquo;</p>
+<p>Open the audio file in Audacity and convert the small and big waves to morse code. The short waves are dots and the longer waves are dashes.</p>
+<p><img src="/ctf/25-v1t/talkingduck1.png" alt="talkingduck"></p>
+<p>This is the result: <code>...- .---- - -.. ..- -.-. -.- ... ----- ... ... ----- ...</code>. Decode this to get the flag!</p>
+<p><code>🚩v1t{DUCK_S0S_S0S}</code></p>
+<h3 id="rotbrain">RotBrain</h3>
+<p>&ldquo;Ts fr lwk pmo gng&rdquo;</p>
+<p>The attachment was named <code>gnp.egami</code> which is image.png backwards. PNG magic bytes were backwards at the end of the file, so I knew I had to reverse the bytes to get the original image. Had a lot of trouble with this and went down a rabbit hole of thinking maybe a ROT cipher had been applied somehow. But actually, I needed to decode it from UTF-8 and instead encode it to Latin1, since this maps byte values 0–255 directly to Unicode code points so you can safely convert from bytes to str.</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="#ZgotmplZ">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <pre><code>python3 -c &#34;data=open(&#39;gnp.egami&#39;,&#39;rb&#39;).read(); open(&#39;out.png&#39;,&#39;wb&#39;).write(data.decode(&#39;utf-8&#39;).encode(&#39;latin1&#39;)[::-1])&#34;</code></pre>
+    
+</div>
+<p>Open the resulting image for the flag.</p>
+<p><code>🚩 v1t{r3v_1mg_4ge}</code></p>
 
             
         </div>
@@ -946,7 +1029,7 @@
                 <li>
                     
                         Word Count:
-                        198
+                        399
                     
                 </li>
             
@@ -956,7 +1039,7 @@
                     
                         Last modified: &nbsp;
                         <time>
-                            Aug 11 2025 00:00:00
+                            Nov 01 2025 00:00:00
                         </time>
                     
                 </li>

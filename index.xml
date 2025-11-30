@@ -6,13 +6,22 @@
     <description>Recent content on assouline.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.assouline.sh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Buckeye CTF</title>
+      <link>https://blog.assouline.sh/ctfs/buckeye25/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.assouline.sh/ctfs/buckeye25/</guid>
+      <description>Web EBG13 &amp;ldquo;V znqr na ncc gung yrgf lbh ivrj gur ebg13 irefvba bs nal jrofvgr!&amp;rdquo;
+The website for this challenge lets you input a url and returns the contents of the given website encoded in ROT13. We are given the source code in server.js which specifies an endpoint /admin that will return the flag if the request originates from localhost.
+fastify.get(&amp;#39;/admin&amp;#39;, async (req, reply) =&amp;gt; { if (req.ip === &amp;#34;127.</description>
+    </item>
+    <item>
       <title>V1t CTF</title>
-      <link>https://blog.assouline.sh/ctfs/v1t_ctf/</link>
+      <link>https://blog.assouline.sh/ctfs/v1t_ctf25/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.assouline.sh/ctfs/v1t_ctf/</guid>
+      <guid>https://blog.assouline.sh/ctfs/v1t_ctf25/</guid>
       <description>Crypto Lost Some Binary &amp;ldquo;SOS we lost some binary sir!&amp;rdquo;
 The result of converting binary to ASCII (and the challenge name) hints to look at the LSB.
 Then extract the LSB of each byte and decode the binary again to get the flag.
@@ -36,7 +45,7 @@ Emoji Encoding Morse Decoder or this one References Vim GTFOBins </description>
       <pubDate>Sun, 21 Sep 2025 19:46:03 +0000</pubDate>
       <guid>https://blog.assouline.sh/resources/resources/</guid>
       <description>Various resources I&amp;rsquo;ve used to learn and practice:
-Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
+Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTF Platforms CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Papers/ Books (2017) Blue Team Field Manual (2018) Linux Hardening In Hostile Networks: Server Security From TLS To Tor (2020) Mastering Linux Security and Hardening (2019) Learn Penetration Testing (2024) Windows Security Internals (2021) Adversarial Tradecraft in Cybersecurity News Bleeping Computer The Hacker News Threatpost Dark Reading Podcasts Hacked Darknet Diaries CISO Series Podcast Youtubers The Linux Experiment The Cyber Mentor IppSec Low Level Fireship Dreams of Code LiveOverflow Jeff Geerling Misc.</description>
     </item>
     <item>
       <title>Projects</title>

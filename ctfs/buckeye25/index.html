@@ -35,7 +35,7 @@
 
     <title>
         
-            247 CTF Walkthrough |
+            Buckeye CTF |
             assouline.sh
         
     </title>
@@ -108,7 +108,7 @@
 
     <div class="header_middle">
         
-            247 CTF Walkthrough -
+            Buckeye CTF -
             assouline.sh
         
     </div>
@@ -770,7 +770,7 @@
 
         <div class="title">
             <h1 class="title-header">
-                247 CTF Walkthrough
+                Buckeye CTF
             </h1>
 
             <div class="author-date-readtime">
@@ -779,8 +779,8 @@
                     <div class="date" title="Date">
                         <i class="bi bi-calendar3"></i>
                         <time
-                            datetime="2025.05.10"
-                            >2025.05.10
+                            datetime="2025.11.09"
+                            >2025.11.09
                         </time>
                     </div>
                 
@@ -848,12 +848,12 @@
 
 
 
-<a href="https://blog.assouline.sh/ctfs/247_walkthrough/" class="bread-btn">
+<a href="https://blog.assouline.sh/ctfs/buckeye25/" class="bread-btn">
     
 
     
         
-            247 CTF Walkthrough
+            Buckeye CTF
         
 
     
@@ -866,12 +866,48 @@
 
         <div class="content">
             
-                <h2 id="crypto">Crypto</h2>
-<h3 id="my-magic-bytes">My Magic Bytes</h3>
-<p>&ldquo;Can you recover the secret XOR key we used to encrypt the flag?&rdquo;</p>
-<p>Knowing the properties of XOR and the magic bytes for a jpg, we can recover the key by XORing the beginning bytes of the file with <code>FF D8 FF E0 00 10 4A 46 49 46 00 01</code></p>
-<p><img src="/ctf/247/magic1.png" alt="magic1"></p>
-<p>Then with the following script, we XOR the key with the file. The result of this is an image which has the flag!</p>
+                <h2 id="web">Web</h2>
+<h3 id="ebg13">EBG13</h3>
+<p>&ldquo;V znqr na ncc gung yrgf lbh ivrj gur ebg13 irefvba bs nal jrofvgr!&rdquo;</p>
+<p>The website for this challenge lets you input a url and returns the contents of the given website encoded in ROT13. We are given the source code in <code>server.js</code> which specifies an endpoint <code>/admin</code> that will return the flag if the request originates from <code>localhost</code>.</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="fastify.get%28%27/admin%27,%20async%20%28req,%20reply%29%20=%3e%20%7b%0a%20%20%20%20if%20%28req.ip%20===%20%22127.0.0.1%22%20%7c%7c%20req.ip%20===%20%22::1%22%20%7c%7c%20req.ip%20===%20%22::ffff:127.0.0.1%22%29%20%7b%0a%20%20%20%20%20%20return%20reply.type%28%27text/html%27%29.send%28%60Hello%20self!%20The%20flag%20is%20$%7bFLAG%7d.%60%29%0a%20%20%20%20%7d%0a%0a%20%20%20%20return%20reply.type%28%27text/html%27%29.send%28%60Hello%20$%7breq.ip%7d,%20I%20won%27t%20give%20you%20the%20flag!%60%29%0a%7d%29">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>fastify<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;/admin&#39;</span>, <span style="color:#66d9ef">async</span> (req, reply) <span style="color:#f92672">=&gt;</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (req<span style="color:#f92672">.</span>ip <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;127.0.0.1&#34;</span> <span style="color:#f92672">||</span> req<span style="color:#f92672">.</span>ip <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;::1&#34;</span> <span style="color:#f92672">||</span> req<span style="color:#f92672">.</span>ip <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;::ffff:127.0.0.1&#34;</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> reply<span style="color:#f92672">.</span>type(<span style="color:#e6db74">&#39;text/html&#39;</span>)<span style="color:#f92672">.</span>send(<span style="color:#960050;background-color:#1e0010">`</span>Hello self<span style="color:#960050;background-color:#1e0010">!</span> The flag <span style="color:#f92672">is</span> <span style="color:#960050;background-color:#1e0010">$</span>{FLAG}<span style="color:#f92672">.</span><span style="color:#960050;background-color:#1e0010">`</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> reply<span style="color:#f92672">.</span>type(<span style="color:#e6db74">&#39;text/html&#39;</span>)<span style="color:#f92672">.</span>send(<span style="color:#960050;background-color:#1e0010">`</span>Hello <span style="color:#960050;background-color:#1e0010">$</span>{req<span style="color:#f92672">.</span>ip}, I won<span style="color:#e6db74">&#39;t give you the flag!`)</span>
+</span></span><span style="display:flex;"><span>})</span></span></code></pre></div>
+    
+</div>
+<p>Since we also know from the source code that the web app is running on port 3000, we can navigate to <code>https://ebg13.challs.pwnoh.io/ebj13?url=http://127.0.0.1:3000/admin</code> to pass the internal url to the web app, thus bypassing the IP restriction and successfully returning the flag!</p>
+<p><code>🚩bctf{what_happens_if_i_use_this_website_on_itself}</code></p>
+<h3 id="ramesses">Ramesses</h3>
+<p>&ldquo;Do you dare enter the tomb of Pharaoh Dave Ramesses?&rdquo;</p>
+<p>The website has two input boxes, one for a name and one for a secret password to &ldquo;enter the tomb&rdquo;. After submitting test values, I noticed that the cookie is a base64 encoded value, and decoding it shows there is a flag <code>is_pharaoh</code> set to false.</p>
+<p><img src="/ctf/25-buckeye/ramesses1.png" alt="ramesses"></p>
+<p>I set the value to true, base64 encoded it, set it as the cookie value for my request, and got the flag.</p>
+<p><img src="/ctf/25-buckeye/ramesses2.png" alt="ramesses"></p>
+<p><code>🚩bctf{s0_17_w45_wr177en_50_1t_w45_d0n3}</code></p>
+<h3 id="big-chungus">Big Chungus</h3>
+<p>&ldquo;There&rsquo;s wabbit twouble afoot&rdquo;</p>
+<p>The website for this challenge is nonsensical, but there&rsquo;s a box for inputting a username. Inspecting the <code>index.js</code> source code, we see an interesting line:</p>
 
 
 
@@ -889,35 +925,207 @@
     
 
     
-        <pre><code>with open(&#34;image.jpg.enc&#34;, &#34;rb&#34;) as f:
-    data = f.read()
-
-key = bytes.fromhex(&#34;46ccf9a571f0ffb17e41cb84&#34;)
-data = bytes.fromhex(data.hex())
-
-result = bytearray()
-key_len = len(key)
-
-for i in range(len(data)):
-    result.append(data[i] ^ key[i % key_len])
-
-binary_result = bytes.fromhex(result.hex())
-
-with open(&#34;output&#34;, &#34;wb&#34;) as f:
-    f.write(binary_result)</code></pre>
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">query</span>.<span style="color:#a6e22e">username</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0xB16</span><span style="color:#a6e22e">_C4A6A5</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">`
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">...
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&lt;p style=&#34;font-size: 30px; color: lime;&#34;&gt;FLAG: </span><span style="color:#e6db74">${</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">FLAG</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#34;FLAG_NOT_SET&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">}</span><span style="color:#e6db74">&lt;/p&gt;
+</span></span></span></code></pre></div>
     
 </div>
-<p><code>🚩247CTF{ca4e3b7f913ca7ca8f33fb050412947f}</code></p>
+<p>Only if we input a username that is longer than 47,626,626,725 characters will we get the page that renders the flag. Unless&hellip;! We could specify ourselves the length of the username ourselves.</p>
+<p>With the following payload:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="#ZgotmplZ">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl <span style="color:#e6db74">&#34;https://big-chungus.challs.pwnoh.io/?username%5Blength%5D=99999999999999999999999&#34;</span></span></span></code></pre></div>
+    
+</div>
+<p>the web app will evaluate username.length and since the username is an object with a length property set to a number &gt; 47 billion, it will pass the check!</p>
+<p><code>🚩bctf{b16_chun6u5_w45_n3v3r_7h15_b16}</code></p>
+<h3 id="awklet">Awklet</h3>
+<p>&ldquo;Well this is awkward&hellip;&rdquo;</p>
+<p>The website for this challenge takes text input and returns it in different styles of ascii art. We get the source code <code>awklet.awk</code> which has a notable vulnerability when loading the font:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="function%20load_font%28font_name,%20font,%20filename,%20line,%20char,%20row,%20c%29%20%7b%0a%20%20%20%20filename%20=%20font_name%20%22.txt%22">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>function <span style="color:#a6e22e">load_font</span>(font_name, font, filename, line, <span style="color:#66d9ef">char</span>, row, c) {
+</span></span><span style="display:flex;"><span>    filename <span style="color:#f92672">=</span> font_name <span style="color:#e6db74">&#34;.txt&#34;</span></span></span></code></pre></div>
+    
+</div>
+<p>The given font_name is concatenated with <code>.txt</code> without any checks. We can also see in the given Dockerfile that the flag is passed to the process&rsquo;s environment and could thus be read from <code>/proc/self/environ</code>, while the web app is running from <code>/usr/lib/cgi-bin/</code></p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="RUN%20echo%20%22PassEnv%20FLAG%22%20%3e%3e%20/etc/apache2/conf-available/flag.conf%20&amp;&amp;%20%5c%0a%20%20%20%20a2enconf%20flag%0a...%0a%0aRUN%20chmod%20&#43;x%20/usr/lib/cgi-bin/awklet.awk">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>RUN echo <span style="color:#e6db74">&#34;PassEnv FLAG&#34;</span> <span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">/</span>etc<span style="color:#f92672">/</span>apache2<span style="color:#f92672">/</span>conf<span style="color:#f92672">-</span>available<span style="color:#f92672">/</span>flag.conf <span style="color:#f92672">&amp;&amp;</span> \
+</span></span><span style="display:flex;"><span>    a2enconf flag
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>RUN chmod <span style="color:#f92672">+</span>x <span style="color:#f92672">/</span>usr<span style="color:#f92672">/</span>lib<span style="color:#f92672">/</span>cgi<span style="color:#f92672">-</span>bin<span style="color:#f92672">/</span>awklet.awk</span></span></code></pre></div>
+    
+</div>
+<p>This all points to a directory traversal exploit. We can set the font to be <code>font=../../../../proc/self/environ</code>. It took me a while to realize a null terminator <code>%00</code> is needed to prevent the <code>.txt</code> from being appended. The final payload gives us the flag:</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="https://awklet.challs.pwnoh.io/cgi-bin/awklet.awk?name=x&amp;font=../../../../proc/self/environ%00">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>https://awklet.challs.pwnoh.io/cgi-bin/awklet.awk?name<span style="color:#f92672">=</span>x&amp;font<span style="color:#f92672">=</span>../../../../proc/self/environ%00</span></span></code></pre></div>
+    
+</div>
+<p><code>🚩bctf{n3xt_t1m3_1m_wr171ng_1t_1n_53d}</code></p>
+<h2 id="pwn">Pwn</h2>
+<h3 id="waddler">Waddler</h3>
+<p>&ldquo;Poke it the right way and it hums back something useful.&rdquo;</p>
+<p>Open the binary in ghidra and see there is a function <code>duck()</code> that reads flag.txt and prints it. However, this function is not called anywhere. This seems like a basic buffer overflow where we need to overwrite the return address with the address of <code>duck()</code>. We calculate the offset by taking the sum of the buffer (64) + saved RBP (8) and find the function address to be at <code>0x40128C</code>. The following exploit gets us our flag:</p>
+<p><img src="/ctf/25-v1t/waddler.png" alt="waddler"></p>
+<p><code>🚩v1t{w4ddl3r_3x1t5_4e4d6c332b6fe62a63afe56171fd3725}</code></p>
+<h3 id="viewer">Viewer</h3>
+<p>&ldquo;Viewer to view many things&rdquo;</p>
+<p>We are given the source code and can see there are four options of things to view, one of which is the flag. We just need to set <code>is_admin</code> to <code>true</code>, which we can do by overflowing <code>input[10]</code> because <code>gets(input)</code> does no bounds checking.</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="int%20main%28%29%20%7b%0a%20%20%20%20viewee_t%20viewee%20=%20INVALID;%0a%20%20%20%20char%20input[10];%0a%20%20%20%20bool%20is_admin%20=%20false;%0a%20%20%20%20...%0a%20%20%20%20gets%28input%29;%0a%20%20%20%20...%0a%20%20%20%20%7d%20else%20if%20%28strcmp%28input,%20%22flag%22%29%20==%200%20&amp;&amp;%20is_admin%29%20%7b%0a%20%20%20%20%20%20%20%20viewee%20=%20FLAG;%0a%20%20%20%20...%0a%7d">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">viewee_t</span> viewee <span style="color:#f92672">=</span> INVALID;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> input[<span style="color:#ae81ff">10</span>];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> is_admin <span style="color:#f92672">=</span> false;
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">gets</span>(input);
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> (<span style="color:#a6e22e">strcmp</span>(input, <span style="color:#e6db74">&#34;flag&#34;</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> is_admin) {
+</span></span><span style="display:flex;"><span>        viewee <span style="color:#f92672">=</span> FLAG;
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+    
+</div>
+<p>The payload starts with <code>flag</code> and we add a null terminator so <code>strcmp</code> knows to stop here. Then we fill the rest of <code>input[10]</code> with 5 more bytes, and then end the payload with a non-zero byte value so we overwrite <code>is_admin</code> to true.</p>
+<p><img src="/ctf/25-buckeye/viewer.png" alt="viewer"></p>
+<p><code>🚩bctf{I_C4nt_Enum3rAte_7hE_vuLn3r4biliTI3s}</code></p>
+<h2 id="forensic">Forensic</h2>
+<h3 id="the-professors-files">The Professor&rsquo;s Files</h3>
+<p>&ldquo;A professor uploaded their ethics report for review, but something about it seems… off. The document’s formatting feels inconsistent, almost like it was edited by hand rather than exported normally. The metadata looks strange too, and there’s a rumor that the professor hides sensitive data in plain sight&rdquo;</p>
+<p>The description says to look at the metadata of the given file, and when I did I saw hints at there being a zip file within it.</p>
+<p><img src="/ctf/25-buckeye/professor.png" alt="professor"></p>
+<p>Running binwalk extracted a bunch of files, and the flag was in a file <code>theme1.xml</code></p>
+<p><code>🚩bctf{docx_is_zip}</code></p>
 <h2 id="misc">Misc</h2>
-<h3 id="the-text-editor-jail">The Text Editor Jail</h3>
-<p>&ldquo;We didn&rsquo;t have time to setup and test a proper jail, so this text editor will have to do for now. Can you break free?&rdquo;</p>
-<p>Use <code>:set shell=/bin/sh|:shell</code> from <a href="https://gtfobins.github.io/gtfobins/vim/">GTFO Bins</a></p>
-<h3 id="an-impossible-number">An Impossible Number</h3>
-<p>&ldquo;Can you think of a number which at the same time is one more than itself?&rdquo;</p>
-<p>Integer overlow! A signed integer in c has a range of -2³¹ to 2³¹−1, so give the program <code>2147483647</code></p>
-<h3 id="the-flag-lottery">The Flag Lottery</h3>
-<p>&ldquo;Can you guess the secret number to win the lottery? The prize is a flag!&rdquo;</p>
-<p>We want to use the same code in the program to generate the secret number. Since the program uses <code>time.time()</code> as the seed, if we generate our own number veryyy close to the same time as the program, we&rsquo;ll get the same number.</p>
+<h3 id="mind-boggle">Mind Boggle</h3>
+<p>&ldquo;My friend gave me this file, but I have no idea what it means!!!!! HELP&rdquo;</p>
+<p>We are given a file that has what I recognize as Brainfuck, a trippy programming language often used in CTF challs. I went to dcode and pasted in the contents of the file. Cyberchef then helped me decode the result from hex and then from base64 to get the flag.</p>
+<p><img src="/ctf/25-buckeye/boggle.png" alt="boggle"></p>
+<p><code>🚩bctf{tr1pl3_7H3_l4yeRs_Tr1pl3_thE_EncryPt10N}</code></p>
+<h3 id="talking-duck">Talking Duck</h3>
+<p>&ldquo;Bro this duck is talking to me or something?&rdquo;</p>
+<p>Open the audio file in Audacity and convert the small and big waves to morse code. The short waves are dots and the longer waves are dashes.</p>
+<p><img src="/ctf/25-v1t/talkingduck1.png" alt="talkingduck"></p>
+<p>This is the result: <code>...- .---- - -.. ..- -.-. -.- ... ----- ... ... ----- ...</code>. Decode this to get the flag!</p>
+<p><code>🚩v1t{DUCK_S0S_S0S}</code></p>
+<h3 id="rotbrain">RotBrain</h3>
+<p>&ldquo;Ts fr lwk pmo gng&rdquo;</p>
+<p>The attachment was named <code>gnp.egami</code> which is image.png backwards. PNG magic bytes were backwards at the end of the file, so I knew I had to reverse the bytes to get the original image. Had a lot of trouble with this and went down a rabbit hole of thinking maybe a ROT cipher had been applied somehow. But actually, I needed to decode it from UTF-8 and instead encode it to Latin1, since this maps byte values 0–255 directly to Unicode code points so you can safely convert from bytes to str.</p>
+
+
+
+
+
+
+
+<div class="codeblock">
+    
+        <div class="copy-button-box">
+            <button class="copy-button" state="copy" data="#ZgotmplZ">
+                <i class="bi bi-copy"></i>
+            </button>
+        </div>
+    
+
+    
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>python3 <span style="color:#f92672">-</span>c <span style="color:#e6db74">&#34;data=open(&#39;gnp.egami&#39;,&#39;rb&#39;).read(); open(&#39;out.png&#39;,&#39;wb&#39;).write(data.decode(&#39;utf-8&#39;).encode(&#39;latin1&#39;)[::-1])&#34;</span></span></span></code></pre></div>
+    
+</div>
+<p>Open the resulting image for the flag.</p>
+<p><code>🚩 v1t{r3v_1mg_4ge}</code></p>
+<h2 id="what-i-didnt-solve">What I Didn&rsquo;t Solve</h2>
+<h3 id="forensic-cosmonaut">(Forensic) Cosmonaut</h3>
+<ul>
+<li>Needed to run the program on varios OSs, or patch the program</li>
+<li><a href="https://github.com/chrisgward/buckeyectf-2025/blob/main/beginner/Cosmonaut/Cosmonaut.ipynb">Solve</a></li>
+</ul>
+<h3 id="pwn-character-assassination">(PWN) Character Assassination</h3>
+<ul>
+<li>The flag is stored in memory directly before an array we index (with our input). Loop providing a negative index to read the flag</li>
+<li><a href="https://0xasta.me/writeups/CtfTime-BuckeyeCTF-2025-character-assassination/">Solve</a></li>
+</ul>
 
             
         </div>
@@ -978,7 +1186,7 @@ with open(&#34;output&#34;, &#34;wb&#34;) as f:
                 <li>
                     
                         Word Count:
-                        252
+                        1089
                     
                 </li>
             
@@ -988,7 +1196,7 @@ with open(&#34;output&#34;, &#34;wb&#34;) as f:
                     
                         Last modified: &nbsp;
                         <time>
-                            May 10 2025 00:00:00
+                            Nov 09 2025 00:00:00
                         </time>
                     
                 </li>
